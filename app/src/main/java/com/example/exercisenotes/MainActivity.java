@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    /** Метод при закрытие дочерней активити, обновляет содержимое адаптера **/
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
